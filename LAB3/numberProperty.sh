@@ -12,3 +12,15 @@ echo "Negative Number"
 else
 echo "Number entered is 0"
 fi
+
+Enter a number
+-11
+Negative Number
+
+Enter a number
+0
+Number entered is 0
+
+Enter a number
+2
+Positive Number
