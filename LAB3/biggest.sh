@@ -28,7 +28,10 @@ Enter three numbers
 40 99 2
 Greatest Number: 99
 
-Enter three numbers
-40 99 2
-40 99 2
-Greatest Number: 99
+-1 -30 -2
+-1 -30 -2
+Greatest Number: -1
+
+20 45 -30
+20 45 -30
+Greatest Number: 45
