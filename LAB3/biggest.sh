@@ -22,3 +22,13 @@ then
 else
 echo "Greatest Number: $NUM3"
 fi
+
+Enter three numbers
+40 99 2
+40 99 2
+Greatest Number: 99
+
+Enter three numbers
+40 99 2
+40 99 2
+Greatest Number: 99
