@@ -3,7 +3,7 @@
 
 echo "Enter a file name"
 read FLNAME
-echo "Enter alternate name for file"
+echo "Enter other name for file to copy contets of first file"
 read DESTDIR
 cp $FLNAME $DESTDIR
 echo "File contents are displayed"
