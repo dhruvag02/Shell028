@@ -17,3 +17,19 @@ else
 	done
 	echo "Factorial of number: $RES"
 fi
+
+
+Enter a number
+0
+1 2 0
+Factorial of number: 1
+
+Enter a number
+5
+1 2 5
+Factorial of number: 120
+
+Enter a number
+-1
+Negative Numbers are not allowed
+
