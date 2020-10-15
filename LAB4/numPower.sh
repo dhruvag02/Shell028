@@ -27,3 +27,23 @@ then
 	done
 fi
 echo "$NUM to the Power $POW is $RES"
+
+Enter a number
+4
+Enter the power
+0
+4 to the Power 0 is 1
+
+Enter a number
+0
+Enter the power
+3
+0 to the Power 3 is 0
+
+Enter a number
+2
+Enter the power
+4
+2 to the Power 4 is 16
+
+
