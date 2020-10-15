@@ -21,3 +21,21 @@ else
 fi
 fi
 
+
+$ sh fileTest2.sh
+Incorrect arguments specified on command line
+
+$ sh fileTest2.sh DirTest
+Name is a directory
+Details are displayed
+total 0
+
+$ sh fileTest2.sh file
+File Name is entered
+Details of file is displayed
+-rw-r--r-- 1 dhruv dhruv 115 Oct  8 15:05 file
+
+$ sh fileTest2.sh fil
+You entered incorrect argument
+
+
