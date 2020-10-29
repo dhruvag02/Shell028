@@ -27,3 +27,25 @@ do
 	I=`expr $I + 1`
 done
 
+Enter nth number
+6
+
+
+0 
+1 
+1 
+2 
+3 
+5 
+8 
+
+Enter nth number
+-1
+Enter positive numbers
+
+Enter nth number
+0
+
+
+0 
+
