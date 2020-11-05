@@ -40,3 +40,55 @@ esac
 echo "Enter other than '0' to continue...."
 read J
 done
+
+
+Menu is displayed.....
+1. Addition	2. Subtraction	3. Multiplication	4. Division	5. Modulus
+Enter two numbers
+5 2
+Enter Choice
+1
+Addition: 7
+Enter other than '0' to continue....
+0
+
+
+
+
+
+Menu is displayed.....
+1. Addition	2. Subtraction	3. Multiplication	4. Division	5. Modulus
+Enter two numbers
+-1 -2
+Enter Choice
+3
+Multiplication: 2
+Enter other than '0' to continue....
+1
+Enter two numbers
+3 -5
+Enter Choice
+2
+Subtraction: 8
+Enter other than '0' to continue....
+1
+Enter two numbers
+5 2
+Enter Choice
+5
+Modulus: 1
+Enter other than '0' to continue....
+0
+
+
+
+
+Menu is displayed.....
+1. Addition	2. Subtraction	3. Multiplication	4. Division	5. Modulus
+Enter two numbers
+10 -2
+Enter Choice
+4
+Division: -5
+Enter other than '0' to continue....
+0
