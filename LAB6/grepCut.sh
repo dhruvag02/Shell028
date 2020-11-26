@@ -9,3 +9,11 @@ else
 	echo "List of Home directories: "
 	grep "$1" /etc/passwd|cut -d ":" -f 6
 fi
+
+$ sh grepCut.sh gani
+Invalid Name
+
+$ sh grepCut.sh dhruv
+List of Home directories: 
+/home/dhruv
+
