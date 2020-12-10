@@ -31,3 +31,35 @@ else
 	fi
 fi
 
+$ sh cutPerm.sh sortfile sortfile2
+Number of arguments specified: 2
+Arguments: sortfile sortfile2
+Both arguments are file
+Permissions are different
+Permission of file 1:
+
+rw-r--r--
+Permission of file 2:
+
+rwxr--r--
+
+$ sh cutPerm.sh sortfile sortfile3
+Number of arguments specified: 2
+Arguments: sortfile sortfile2
+Both arguments are file
+Both files have same permissions
+rw-r--r--
+
+$ sh cutPerm.sh sortfile Dirtest
+Number of arguments specified: 2
+Arguments: sortfile Dirtest
+Both arguments are not file
+
+
+$ sh cutPerm.sh
+Number of arguments specified: 0
+Arguments: 
+Two arguments are required
+
+
+
