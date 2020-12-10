@@ -8,3 +8,9 @@ read FILENAME
 #echo "`wc -c $COUNT`"
 
 cat $FILENAME | tr -dc "aeiouAEIOU" |wc -c
+#end
+
+
+Enter File Name
+trVowelC.txt
+4
