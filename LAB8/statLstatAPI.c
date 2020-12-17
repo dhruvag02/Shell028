@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<unistd.h>
 #include<sys/stat.h>
-#include<time.h>
 #define S 100
 
 void printFileProperties(struct stat stats);
@@ -48,11 +47,44 @@ void printFileProperties(struct stat stats)
 }
 
 
+Enter the path of file: sortfile //Not a symbolic Link
+
+File Access: read Inode Number: 393244
+UID: 1000
+GID: 1000
+Number of links: 1
+Size in Bytes: 88
+Blocks allocated: 8
+
+File Access: read Inode Number: 393244
+UID: 1000
+GID: 1000
+Number of links: 1
+Size in Bytes: 88
+Blocks allocated: 8
+
+// Both stat() and lstat() functions have same output
+	
+	
+Enter the path of file: shortcutfile  //Symbolic Link
+
+File Access: read Inode Number: 393222
+UID: 1000
+GID: 1000
+Number of links: 1
+Size in Bytes: 16
+Blocks allocated: 8
+
+File Access: read write execute Inode Number: 408157
+UID: 1000
+GID: 1000
+Number of links: 1
+Size in Bytes: 4
+Blocks allocated: 0
 
 
-
-
-
+// So, stat() function shows actual file it is pointing to and lstat() function shows 
+// attributes of symbolic link file
 
 
 
