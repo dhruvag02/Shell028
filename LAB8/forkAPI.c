@@ -31,3 +31,12 @@ int main()
 	exit(0);
 return 0;
 }
+
+
+Before calling to fork()....
+
+CHILD --PID 18936 PPID 18935
+Both Process continue form here
+PARENT --PID 18935 PPID 11956 Child PID 18936
+Both Process continue form here
+
