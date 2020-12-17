@@ -23,4 +23,17 @@ return 0;
 }
 
 
+$ ./a.out sortfile
+
+00.0546 :YRALAS SSORG //GROSS SALARY: 6450.00
+00.0034 :YRALAS SSORG
+00.0002 :YRALAS SSORG
+00.0546 :YRALAS SSORG
+
+
+
+$ ./a.out Sfile.txt
+. txt.elpmas sa deman dna yrotcerid 820llehs ni detacol si eliF
+.sdnammoC xinU suoirav gnisu rof detaerC .elif txet elpmas a si sihT
+
 
