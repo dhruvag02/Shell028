@@ -1,0 +1,2 @@
+This is a sample text file. Created for using various Unix Commands.
+File is located in shell028 directory and named as sample.txt .
