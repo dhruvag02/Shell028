@@ -25,3 +25,14 @@ int main(int argc, char *argv[])
 		exit(20);
 	}
 }
+
+
+$ ./a.out waitfile
+Child terminating with exit value: 32766
+Parent:Child terminating with exit value: 254
+
+
+$ ./a.out
+Child terminating with exit value: 32764
+Parent:Child terminating with exit value: 252
+
